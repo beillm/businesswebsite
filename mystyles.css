@@ -1,0 +1,137 @@
+body {
+    background:#ecfefc;
+}
+p{
+    font-family: 'Droid Serif', serif;
+    color:#60b8b6;
+    font-size:20px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    padding: 50px 60px 10px 265px;
+    margin-right: 8px;
+    marin-left: 15px;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    font-size:85px;
+    position: absolute;
+    top: 200px;
+    left: 10;
+    width: 100%;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 1.0s infinite;
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    color:#000000;
+    font-size:60px;
+    margin-left: 185px;
+    margin-right: center;
+    margin-top:40px;
+    text-align: center;
+    padding: 0px 0px 0px 85px;
+}
+span{
+    font-weight:bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+div{
+    margin-right: 10px;
+    margin-left: 600px;
+    margin-bottom:5px;
+    margin-top: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #efecfe;
+    color: salmon;
+}
+table, td{
+    border: 1px black dashed;
+    margin-left: 400px ;
+}
+.sidebar{
+    background: #e4defd;
+    position: fixed;
+    top: 250px;
+    border-radius: 6px;
+    padding:10x 10px;
+    left: -580px;
+    width: 200px;
+}
+.sidebar li{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 3px solid salmon;
+}
+.sidebar li a{
+    color: #082f6d;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Amatic SC', cursive; 
+}
+.sidebar li:last-child {
+    border-bottom: none;
+}
+ul{
+    list-style-type: none;
+}
+.images{
+    display: inline-block;
+    white-space: nowrap;   
+    margin-right: center;
+    margin-left: center;
+    transition: all 0.3s ease;
+    
+}
+.media{
+    float: right;
+}
+.grow{
+    display: inline-block;
+    white-space: nowrap;   
+    margin-right: center;
+    margin-left: 10px;
+}
+.picturehead{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 275px;
+    margin-right: 0px;
+}    
+p{
+    margin-left: 10px;
+}
+.grow img {
+  height: 300px;
+  width: 450px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 350px;
+}
+
